@@ -13,6 +13,7 @@
 		CABD89332B13746200C2E5EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABD89322B13746200C2E5EE /* Preview Assets.xcassets */; };
 		CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD89492B13814900C2E5EE /* ExploreView.swift */; };
 		CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894B2B13827600C2E5EE /* ListingItemView.swift */; };
+		CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CABD89322B13746200C2E5EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CABD89492B13814900C2E5EE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		CABD894B2B13827600C2E5EE /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				CABD89492B13814900C2E5EE /* ExploreView.swift */,
+				CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */,
+				CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */,
 				CABD892E2B13746100C2E5EE /* ContentView.swift in Sources */,
 				CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */,
 				CABD892C2B13746100C2E5EE /* AirbnbApp.swift in Sources */,
