@@ -14,6 +14,8 @@
 		CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD89492B13814900C2E5EE /* ExploreView.swift */; };
 		CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894B2B13827600C2E5EE /* ListingItemView.swift */; };
 		CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */; };
+		CABD89502B1396BF00C2E5EE /* ListingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */; };
+		CABD89532B1397AA00C2E5EE /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CABD89492B13814900C2E5EE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		CABD894B2B13827600C2E5EE /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 		CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterbar.swift; sourceTree = "<group>"; };
+		CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailsView.swift; sourceTree = "<group>"; };
+		CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		CABD893B2B1374E500C2E5EE /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CABD89512B13976E00C2E5EE /* Components */,
 				CABD89442B1375E100C2E5EE /* TabBar */,
 				CABD89432B1375BB00C2E5EE /* Wishlist */,
 				CABD89422B1375AA00C2E5EE /* Profile */,
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				CABD894B2B13827600C2E5EE /* ListingItemView.swift */,
+				CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -162,6 +168,14 @@
 			children = (
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CABD89512B13976E00C2E5EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +250,10 @@
 			files = (
 				CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */,
 				CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */,
+				CABD89502B1396BF00C2E5EE /* ListingDetailsView.swift in Sources */,
 				CABD892E2B13746100C2E5EE /* ContentView.swift in Sources */,
 				CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */,
+				CABD89532B1397AA00C2E5EE /* ImageCarouselView.swift in Sources */,
 				CABD892C2B13746100C2E5EE /* AirbnbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

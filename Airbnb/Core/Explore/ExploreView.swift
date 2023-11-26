@@ -16,12 +16,19 @@ struct ExploreView: View {
                 
                 LazyVStack(spacing: 32) {
                     ForEach(0 ... 10, id: \.self) { listing in
-                        ListingItemView()
+                        NavigationLink(value: listing) {
+                            ListingItemView()
+                        }
                     }
                 }
                 .padding()
             }
+            .navigationDestination(for: Int.self) { listing in
+                ListingDetailsView()
+                    .navigationBarBackButtonHidden()
+            }
         }
+        
     }
 }
 
