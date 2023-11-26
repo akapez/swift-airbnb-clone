@@ -12,6 +12,7 @@
 		CABD89302B13746200C2E5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABD892F2B13746200C2E5EE /* Assets.xcassets */; };
 		CABD89332B13746200C2E5EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABD89322B13746200C2E5EE /* Preview Assets.xcassets */; };
 		CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD89492B13814900C2E5EE /* ExploreView.swift */; };
+		CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894B2B13827600C2E5EE /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CABD892F2B13746200C2E5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABD89322B13746200C2E5EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CABD89492B13814900C2E5EE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		CABD894B2B13827600C2E5EE /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		CABD893F2B13758900C2E5EE /* Listings */ = {
 			isa = PBXGroup;
 			children = (
+				CABD894B2B13827600C2E5EE /* ListingItemView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */,
 				CABD892E2B13746100C2E5EE /* ContentView.swift in Sources */,
 				CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */,
 				CABD892C2B13746100C2E5EE /* AirbnbApp.swift in Sources */,
