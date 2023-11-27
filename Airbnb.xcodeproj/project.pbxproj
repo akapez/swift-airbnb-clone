@@ -17,6 +17,10 @@
 		CABD89502B1396BF00C2E5EE /* ListingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */; };
 		CABD89532B1397AA00C2E5EE /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */; };
 		CAE489552B14EF0B00EF4FFA /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE489542B14EF0B00EF4FFA /* DestinationSearchView.swift */; };
+		CAE489572B1503E600EF4FFA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE489562B1503E600EF4FFA /* ProfileView.swift */; };
+		CAE489592B15066500EF4FFA /* ProfileOptionRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE489582B15066500EF4FFA /* ProfileOptionRawView.swift */; };
+		CAE4895B2B15081F00EF4FFA /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE4895A2B15081F00EF4FFA /* WishlistView.swift */; };
+		CAE4895D2B1509DE00EF4FFA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE4895C2B1509DE00EF4FFA /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailsView.swift; sourceTree = "<group>"; };
 		CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 		CAE489542B14EF0B00EF4FFA /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		CAE489562B1503E600EF4FFA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CAE489582B15066500EF4FFA /* ProfileOptionRawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRawView.swift; sourceTree = "<group>"; };
+		CAE4895A2B15081F00EF4FFA /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		CAE4895C2B1509DE00EF4FFA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +163,8 @@
 		CABD89422B1375AA00C2E5EE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CAE489562B1503E600EF4FFA /* ProfileView.swift */,
+				CAE489582B15066500EF4FFA /* ProfileOptionRawView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -162,6 +172,7 @@
 		CABD89432B1375BB00C2E5EE /* Wishlist */ = {
 			isa = PBXGroup;
 			children = (
+				CAE4895A2B15081F00EF4FFA /* WishlistView.swift */,
 			);
 			path = Wishlist;
 			sourceTree = "<group>";
@@ -169,6 +180,7 @@
 		CABD89442B1375E100C2E5EE /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CAE4895C2B1509DE00EF4FFA /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -252,13 +264,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */,
+				CAE489572B1503E600EF4FFA /* ProfileView.swift in Sources */,
 				CAE489552B14EF0B00EF4FFA /* DestinationSearchView.swift in Sources */,
 				CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */,
 				CABD89502B1396BF00C2E5EE /* ListingDetailsView.swift in Sources */,
 				CABD892E2B13746100C2E5EE /* ContentView.swift in Sources */,
+				CAE489592B15066500EF4FFA /* ProfileOptionRawView.swift in Sources */,
+				CAE4895B2B15081F00EF4FFA /* WishlistView.swift in Sources */,
 				CABD894A2B13814900C2E5EE /* ExploreView.swift in Sources */,
 				CABD89532B1397AA00C2E5EE /* ImageCarouselView.swift in Sources */,
 				CABD892C2B13746100C2E5EE /* AirbnbApp.swift in Sources */,
+				CAE4895D2B1509DE00EF4FFA /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
