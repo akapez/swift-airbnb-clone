@@ -16,6 +16,7 @@
 		CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */; };
 		CABD89502B1396BF00C2E5EE /* ListingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */; };
 		CABD89532B1397AA00C2E5EE /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */; };
+		CAE489552B14EF0B00EF4FFA /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE489542B14EF0B00EF4FFA /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterbar.swift; sourceTree = "<group>"; };
 		CABD894F2B1396BF00C2E5EE /* ListingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailsView.swift; sourceTree = "<group>"; };
 		CABD89522B1397AA00C2E5EE /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		CAE489542B14EF0B00EF4FFA /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				CABD89492B13814900C2E5EE /* ExploreView.swift */,
 				CABD894D2B13868800C2E5EE /* SearchAndFilterbar.swift */,
+				CAE489542B14EF0B00EF4FFA /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABD894C2B13827600C2E5EE /* ListingItemView.swift in Sources */,
+				CAE489552B14EF0B00EF4FFA /* DestinationSearchView.swift in Sources */,
 				CABD894E2B13868800C2E5EE /* SearchAndFilterbar.swift in Sources */,
 				CABD89502B1396BF00C2E5EE /* ListingDetailsView.swift in Sources */,
 				CABD892E2B13746100C2E5EE /* ContentView.swift in Sources */,
