@@ -22,7 +22,7 @@ class DeveloperPreview {
             pricePerNight: 567,
             latitude: 37.3387,
             longitude: 121.8853,
-            imageUrls: ["lt-1", "lt-2", "lt-3", "lt-4"],
+            imageUrls: ["lt-1", "lt-2", "lt-3", "lt-5"],
             address: "123 Main Street",
             city: "San Jose",
             state: "California",

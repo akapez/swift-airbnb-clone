@@ -84,8 +84,6 @@
 				CABD89392B1374C800C2E5EE /* App */,
 				CABD893B2B1374E500C2E5EE /* Core */,
 				CABD893C2B1374F400C2E5EE /* Extension */,
-				CABD893E2B13751200C2E5EE /* Models */,
-				CABD893D2B13750D00C2E5EE /* Utils */,
 				CABD892D2B13746100C2E5EE /* ContentView.swift */,
 				CABD892F2B13746200C2E5EE /* Assets.xcassets */,
 				CABD89312B13746200C2E5EE /* Preview Content */,
@@ -117,7 +115,6 @@
 				CABD89432B1375BB00C2E5EE /* Wishlist */,
 				CABD89422B1375AA00C2E5EE /* Profile */,
 				CABD89412B13759E00C2E5EE /* Explore */,
-				CABD89402B13759300C2E5EE /* MapView */,
 				CABD893F2B13758900C2E5EE /* Listings */,
 			);
 			path = Core;
@@ -132,20 +129,6 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		CABD893D2B13750D00C2E5EE /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		CABD893E2B13751200C2E5EE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		CABD893F2B13758900C2E5EE /* Listings */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,13 +136,6 @@
 				CADFE4FD2B16429100BBD94C /* Model */,
 			);
 			path = Listings;
-			sourceTree = "<group>";
-		};
-		CABD89402B13759300C2E5EE /* MapView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MapView;
 			sourceTree = "<group>";
 		};
 		CABD89412B13759E00C2E5EE /* Explore */ = {

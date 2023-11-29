@@ -37,7 +37,6 @@ struct ProfileView: View {
                 }
                 .font(.caption)
             }
-            
             VStack(spacing: 24) {
                 ProfileOptionRawView(imageName: "gear", title: "Settings")
                 ProfileOptionRawView(imageName: "gear", title: "Accessibility")

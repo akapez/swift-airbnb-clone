@@ -43,7 +43,7 @@ struct ListingDetailsView: View {
                         .padding(.leading, 32)
                 }
             }
-            
+            //MARK: title section
             VStack(alignment: .leading, spacing: 8) {
                 Text("\(listing.title)")
                     .font(.title)
@@ -51,7 +51,7 @@ struct ListingDetailsView: View {
                 VStack(alignment: .leading) {
                     HStack(spacing: 2) {
                         Image(systemName: "star.fill")
-                        Text("\(listing.rating)")
+                        Text("\(String(format: "%.2f", listing.rating))")
                         Text(" - ")
                         Text("28 reviews")
                             .underline()
@@ -67,6 +67,7 @@ struct ListingDetailsView: View {
             
             Divider()
             
+            //MARK: owner section
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Entire \(listing.types.description) hosted by \(listing.ownerName)")
@@ -92,6 +93,7 @@ struct ListingDetailsView: View {
             
             Divider()
             
+            //MARK: superhost section
             VStack(alignment: .leading, spacing: 16) {
                 ForEach(listing.features){ feature in
                     HStack(spacing: 12) {
@@ -112,6 +114,7 @@ struct ListingDetailsView: View {
             
             Divider()
             
+            //MARK: beeds count section
             VStack(alignment: .leading, spacing: 16) {
                 Text("Where you'll sleep")
                     .font(.headline)
@@ -137,6 +140,7 @@ struct ListingDetailsView: View {
             
             Divider()
             
+            //MARK: offers section
             VStack(alignment: .leading, spacing: 16) {
                 Text("What this place offers")
                     .font(.headline)
@@ -153,6 +157,7 @@ struct ListingDetailsView: View {
             
             Divider()
             
+            //MARK: map section
             VStack(alignment: .leading, spacing: 16) {
                 Text("Where you'll be")
                     .font(.headline)
